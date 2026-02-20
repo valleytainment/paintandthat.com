@@ -229,12 +229,12 @@ export default function App() {
             
             {/* Logo */}
             <div className="flex items-center gap-2 z-50">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-cyan-400 via-purple-500 to-pink-500 flex items-center justify-center shadow-lg shadow-purple-500/20">
-                <Paintbrush size={16} className="text-white" />
-              </div>
-              <span className="font-bold text-xl tracking-tight text-white">
-                P&T.
-              </span>
+              <img
+                src="/brand/logo.png"
+                alt="Paint N'at Logo"
+                className="h-10 w-10 object-contain"
+              />
+              <span className="font-bold text-xl tracking-tight text-white">Paint N'at</span>
             </div>
 
             {/* Desktop Links */}
@@ -742,9 +742,11 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
           
           <div className="flex items-center gap-2">
-            <span className="font-bold text-2xl tracking-tighter text-white">
-              P<span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-500">&</span>T.
-            </span>
+            <img
+              src="/brand/logo.png"
+              alt="Paint N'at Logo"
+              className="h-12 w-12 object-contain"
+            />
           </div>
 
           <div className="flex gap-8 text-sm text-gray-500">
